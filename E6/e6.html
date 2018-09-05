@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Ejercicio 5</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            *{
+                box-sizing: border-box;
+            }
+            h1{
+                font-size: 3vw;
+                font-size: 3vh;
+            }
+
+            .header{
+
+                height:25%;
+                background-color: green;
+                text-align: center;
+                color: white;
+                padding: 10%;
+            }
+
+            .box{
+                float: left;
+                width: 33.33%;}
+                
+                @media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="box"] {
+        width: 100%;
+    }
+                
+
+            
+            .container {
+                clear: both;
+            }
+            .img-responsive{
+      max-width: 100%;
+    }
+            
+            
+
+            </style>
+        </head>
+        <body>
+            <div class="header"><h1>HOLA!!<BR>ESTE ES UN EJERCICIO DE GRILLAS</h1></div>
+
+            <div class="container">
+                <div class="box">
+                    <img src="img.jpg" class="img-responsive" alt="">
+                    <h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed 
+                        do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
+                    </h1>
+                </div>
+                <div class="box">
+                    <img src="img.jpg" class="img-responsive" alt="">
+                    <h1>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed 
+                        do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
+                    </h1>
+                </div>
+                <div class="box">
+                    <img src="img.jpg" class="img-responsive" alt="">
+                    <h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                        do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
+                    </h1>
+                </div>   
+            </div>
+        </body>
+    </html>
